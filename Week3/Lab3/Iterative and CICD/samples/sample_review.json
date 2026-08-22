@@ -1,0 +1,6 @@
+{
+  "decision": "approve",
+  "issues": [
+    {"severity": "nit", "message": "Consider a docstring example for refund_amount."}
+  ]
+}

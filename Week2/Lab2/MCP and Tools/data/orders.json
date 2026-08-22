@@ -1,0 +1,20 @@
+{
+  "NP-100245": {
+    "email": "alex@northpeak-demo.test",
+    "status": "shipped",
+    "items": ["TENT-2P-RX", "BAG-20F-DN"],
+    "tracking": "1Z999AA10123456784"
+  },
+  "NP-100311": {
+    "email": "sam@northpeak-demo.test",
+    "status": "processing",
+    "items": ["STOV-CANX"],
+    "tracking": null
+  },
+  "NP-100190": {
+    "email": "jordan@northpeak-demo.test",
+    "status": "delivered",
+    "items": ["BOOT-GTX-M", "FILT-PMP"],
+    "tracking": "1Z999AA10198765432"
+  }
+}

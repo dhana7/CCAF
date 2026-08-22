@@ -1,0 +1,15 @@
+{
+  "id": "0cb717",
+  "parent_id": null,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Legal notified. Counsel says preserve all logs for 7 years."
+    },
+    {
+      "role": "assistant",
+      "content": "Logs from SIEM, EDR, and AD pinned for 7-year retention under hold ID L-2027-44."
+    }
+  ],
+  "summary": "**DECISIONS:**\n- Quarantine applied to research-analyst-laptop-04\n- Maya Iyer's account kept active (pending interview)\n\n**FACTS:**\n- Alert ID: NG-2027-1142\n- Exfiltration: 8.3 GB to 203.0.113.47\n- Source host: research-analyst-laptop-04\n- Owner: Maya Iyer\n- Memory image hash: a1b2c3d4e5f6\n- Evidence location: evidence-share/incident-1142/image.raw\n\n**OPEN:**\n- Interview Maya Iyer\n- Determine legitimacy of 203.0.113.47 destination\n- Analyze memory image contents\n- Assess data classification of exfiltrated 8.3 GB"
+}

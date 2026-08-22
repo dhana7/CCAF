@@ -1,0 +1,23 @@
+{
+  "id": "be5b4e",
+  "parent_id": null,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Opening alert NG-2027-1142: 8.3 GB outbound transfer from research-analyst-laptop-04 to 203.0.113.47 at 02:47 EST. Asset owner Maya Iyer. Where do we start?"
+    },
+    {
+      "role": "assistant",
+      "content": "Suggested first actions: (1) query SIEM for any other traffic to 203.0.113.47 in the last 7 days, (2) check Maya Iyer's badge swipes and VPN logs, (3) confirm with the EDR that the process tree shows the source of the transfer. Quarantine of the laptop is reasonable once the SIEM query returns."
+    },
+    {
+      "role": "user",
+      "content": "SIEM shows no prior traffic to 203.0.113.47 from any NorthGate asset. Maya's badge shows she left at 18:22 EST and has not returned. No active VPN session."
+    },
+    {
+      "role": "assistant",
+      "content": "Two leading hypotheses: (A) insider — Maya logged in remotely without VPN, unlikely given no VPN session; (B) external — credentials or device compromise. Recommend quarantining the laptop now and preserving memory image before reboot. Shift change at 08:00."
+    }
+  ],
+  "summary": ""
+}
