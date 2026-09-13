@@ -1,0 +1,2 @@
+# Lab 4.3 - Scaling Output. Python 3.9+.
+anthropic>=0.40.0

@@ -1,0 +1,2 @@
+# Lab 4.2 - Enforcing Structure. Python 3.9+.
+anthropic>=0.40.0
